@@ -24,7 +24,7 @@ class Taxi implements Vehicle {
     console.log(`taksi X: ${this.location.x} Y: ${this.location.y} dan X: ${point.x} Y: ${point.y} konumuna gider.`);
   }
 }
-
+// taxi_1 üzerinden artık loaction ve color değerlerimize kontrollü bir şekilde ulaşabiliyoruz.
 let taxi_1: Taxi = new Taxi({ x: 2, y: 5 });
 // taxi_1 üzerinden yukarıda ilgili değerlerimizi private yaptığımız için artık sadece travelTo değerine ulaşabiliyoruz.
 taxi_1.travelTo({ x: 1, y: 2 });

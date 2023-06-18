@@ -15,6 +15,7 @@ var Taxi = /** @class */ (function () {
     };
     return Taxi;
 }());
+// taxi_1 üzerinden artık loaction ve color değerlerimize kontrollü bir şekilde ulaşabiliyoruz.
 var taxi_1 = new Taxi({ x: 2, y: 5 });
 // taxi_1 üzerinden yukarıda ilgili değerlerimizi private yaptığımız için artık sadece travelTo değerine ulaşabiliyoruz.
 taxi_1.travelTo({ x: 1, y: 2 });

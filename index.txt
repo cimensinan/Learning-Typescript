@@ -9,3 +9,7 @@
 9. access-modifies.ts
 10. properties.ts
 11. modules.ts
+11. Vehicle.ts
+11. Point.ts
+11. Taxi.ts
+11. Bus.ts
